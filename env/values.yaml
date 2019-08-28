@@ -20,6 +20,6 @@ jenkins:
   Servers:
     Global:
       EnvVars:
-        DOCKER_REGISTRY: https://registry.jx.scaleops.info
+        DOCKER_REGISTRY: registry-dev-raza.scaleops.info
         TILLER_NAMESPACE: kube-system
 prow: {}
